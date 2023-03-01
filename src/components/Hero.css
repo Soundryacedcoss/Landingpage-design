@@ -1,0 +1,57 @@
+.hero_container {
+  background: #ffca42;
+  width: 1144px;
+  height: auto;
+  margin: auto;
+  background-image: url("../image/Ellipse\ 31.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: calc(10px + 431px);
+  padding: 32px 43px 0px 43px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1130px) {
+  .hero_container {
+    width: auto;
+  }
+  .heroImg {
+    width: 100%;
+  }
+  .Pagelogo {
+    margin: auto;
+  }
+}
+.logo {
+  margin-right: 43px;
+}
+.Pagelogo {
+  margin-top: 15px;
+  margin-right: 18px;
+}
+.Pagehead {
+  margin-top: 15px;
+}
+.Hero_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 129.02%;
+  /* or 32px */
+
+  text-align: center;
+
+  color: #1b3764;
+}
+.Hero_txt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 145.38%;
+
+  text-align: center;
+
+  color: #1b3764;
+}
