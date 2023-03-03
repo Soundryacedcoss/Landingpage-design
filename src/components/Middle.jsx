@@ -1,5 +1,5 @@
 import React from "react";
-import "./mid.css";
+import "./Middle.css";
 import logo from "../image/Logo.png";
 import twitter from "../image/Vector (copy 1).png";
 import insta from "../image/instagram.png";
@@ -12,10 +12,10 @@ import vector4 from "../image/Vector (copy 5).png";
 import arrow from "../image/Vector (copy 6).png";
 export const Middle = () => {
   return (
-    <div className="Mid_container">
-      <div className="top">
-        <div className="top_Left">
-          <div className="logo_text">
+    <div className="middle">
+      <div className="middle__top">
+        <div className="middle__top__left">
+          <div className="middle__top__logo__text">
             <img src={logo} alt="" />
             <div>
               <p className="vectorFlow vectorwidth">VictorFlow</p>
@@ -23,10 +23,10 @@ export const Middle = () => {
             </div>
           </div>
           <p className="Follow">Follow Us</p>
-          <div className="logo_text">
-            <img className="width" src={insta} alt="" />
+          <div className="middle__top__logo__text">
+            <img className="--width" src={insta} alt="" />
             <div>
-              <p className="Follow_title">
+              <p className="follow_title">
                 Instagram <img src={arrow} alt="" />
               </p>
               <p className="follow_txt">
@@ -34,10 +34,10 @@ export const Middle = () => {
               </p>
             </div>
           </div>
-          <div className="logo_text">
-            <img className="width" src={twitter} alt="" />
-            <div>
-              <p className="Follow_title">
+          <div className="middle__top__logo__text">
+            <img className="--width" src={twitter} alt="" />
+            <div className="follow">
+              <p className="follow_title">
                 Twitter
                 <img src={arrow} alt="" />
               </p>
@@ -46,11 +46,11 @@ export const Middle = () => {
               </p>
             </div>
           </div>
-          <div className="logo_text">
-            <img className="width" src={linkdin} alt="" />
+          <div className="middle__top__logo__text">
+            <img className="--width" src={linkdin} alt="" />
             <div>
-              <p className="Follow_title">
-                LinkdIn
+              <p className="follow_title">
+                LinkedIn
                 <img src={arrow} alt="" />
               </p>
               <p className="follow_txt">
@@ -59,11 +59,11 @@ export const Middle = () => {
             </div>
           </div>
         </div>
-        <div className="top_right">
+        <div className="middle__top__right">
           <span className="file_info">File Info</span>
           <div className="figma_file">
-            <div className="logo_text">
-              <img className="width" src={vector1} alt="" />
+            <div className="middle__top__logo__text">
+              <img className="--width" src={vector1} alt="" />
               <div>
                 <p className="figma_file_title">Figma File for FREE</p>
                 <p className="figma_file_txt">
@@ -71,8 +71,8 @@ export const Middle = () => {
                 </p>
               </div>
             </div>
-            <div className="logo_text">
-              <img className="width" src={vector2} alt="" />
+            <div className="middle__top__logo__text">
+              <img className="--width" src={vector2} alt="" />
               <div>
                 <p className="figma_file_title">Webflow</p>
                 <p className="figma_file_txt">
@@ -84,8 +84,8 @@ export const Middle = () => {
           </div>
         </div>
       </div>
-      <div className="Bottom">
-        <div className="left" style={{ width: "400px" }}>
+      <div className="middle__bottom">
+        <div className="middle__bottom__left" style={{ width: "400px" }}>
           <span className="file_info">Images</span>
           <div style={{ marginTop: "20px" }}>
             <div style={{ display: "flex", columnGap: "2%" }}>
@@ -114,7 +114,7 @@ export const Middle = () => {
             </p>
           </div>
         </div>
-        <div className="Right">
+        <div className="middle_right">
           <span className="file_info">Fonts</span>
           <div style={{ marginTop: "20px" }}>
             <div style={{ display: "flex", columnGap: "2%" }}>

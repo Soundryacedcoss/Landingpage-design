@@ -1,4 +1,4 @@
-.hero_container {
+.hero {
   background: #ffca42;
   width: 1144px;
   height: auto;
@@ -12,27 +12,25 @@
 }
 
 @media only screen and (max-width: 1130px) {
-  .hero_container {
+  .hero {
     width: auto;
   }
-  .heroImg {
+  .hero__img {
     width: 100%;
   }
-  .Pagelogo {
+  .hero__logo__img {
     margin: auto;
   }
 }
-.logo {
+.hero__logo {
   margin-right: 43px;
 }
-.Pagelogo {
+.hero__logo__img {
   margin-top: 15px;
   margin-right: 18px;
 }
-.Pagehead {
-  margin-top: 15px;
-}
-.Hero_title {
+
+.hero__title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -44,7 +42,7 @@
 
   color: #1b3764;
 }
-.Hero_txt {
+.hero__txt {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

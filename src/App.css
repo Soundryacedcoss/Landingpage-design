@@ -1,7 +1,12 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto Slab", serif;
+}
 .App {
   width: auto;
 }
-.Footer_container {
+.footer {
   width: 1144px;
   background-color: black;
   text-align: center;
